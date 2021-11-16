@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var showingAlert = false
 
     let qrGenerator = QRGenerator()
-
+ 
     var body: some View {
         NavigationView {
             VStack(spacing: 10) {
